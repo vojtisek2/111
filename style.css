@@ -1,0 +1,50 @@
+.body{
+
+}
+.container {
+    display: grid;
+    grid-template-areas:
+      "side main main"
+      "side main main"
+      "side main main";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto auto;
+
+
+
+    min-height: 100vh;
+  }
+  
+  .side {
+    grid-area: side;
+    background-color: #ccc;
+  }
+   
+  .main {
+    grid-area: main;
+    background-color: #eee;
+
+  }
+  h1{
+    text-align: center;
+
+  }
+  .box1{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+   background-color: black;
+    width: 40vh;
+    height: 40vh;
+    color: #ccc;
+font-size: 30px;
+justify-content: center
+
+}
+.container1{
+    display: grid;  
+    grid-row: 1fr 1fr 1fr;
+    grid-column: 1fr 1fr;
+}
+
+
