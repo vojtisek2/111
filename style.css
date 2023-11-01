@@ -41,10 +41,35 @@ font-size: 30px;
 justify-content: center
 
 }
-.container1{
-    display: grid;  
-    grid-row: 1fr 1fr 1fr;
-    grid-column: 1fr 1fr;
+.container1 {
+	background-color: #eee;
+	width: 330px;
+	margin: 30px auto;
+	
+	display: grid;
+	grid-template-rows: 150px 150px;
+	grid-template-columns: 150px 150px 150px;
+	
+	grid-gap: 30px;
 }
 
+.item {
+	padding: 20px;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: white;
+	
+
+}
+.flex1{
+   display: flex;
+   margin: 33px;
+   flex-direction: row;
+}
+.fbox{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+}
 
